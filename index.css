@@ -140,6 +140,11 @@
     background:hsl(180, 29%, 50%);
 }
 @media(max-width:1050px){
+    .head{
+    height:20vh;
+    width:100vw;
+    background:url('images/bg-header-mobile.svg'), hsl(180, 29%, 50%);
+    }
     .body{
         height:fit-content
     }
